@@ -35,9 +35,9 @@ version="XHTML+RDFa 1.0">
 <table class="header" border="0">
   <tr>
     <td>
-		<dl>
+		<dl about="http://purl.org/ontology/is/infoservice.html">
 			<dt>This version:</dt>
-			<dd><a about="http://purl.org/ontology/is/infoservice.html" rel="dc:hasVersion" 
+			<dd><a rel="dc:hasVersion" 
 				rev="dc:isVersionOf" href="http://purl.org/ontology/is/20100731/infoservice.html">http://purl.org/ontology/is/20100731/infoservice.html</a> (<a href="http://purl.org/ontology/is/20100731/infoservice.owl">OWL</a>, <a href="http://purl.org/ontology/is/20100731/infoservice.n3">N3</a>)</dd>
 
 			<dt>Latest version:</dt>
@@ -47,13 +47,13 @@ version="XHTML+RDFa 1.0">
 			<dd><a href="http://purl.org/ontology/is/20100712/infoservice.html">http://purl.org/ontology/is/20100712/infoservice.html</a> (<a href="http://purl.org/ontology/is/20100712/infoservice.owl">OWL</a>, <a href="http://purl.org/ontology/is/20100712/infoservice.n3">N3</a>)</dd>
 
 			<dt>Authors:</dt>
-			<dd><a about="http://purl.org/ontology/is/infoservice.html" rel="rdfs:seeAlso" href="http://smiy.wordpress.com/author/zazi0815/">Bob Ferris</a> (<a about="http://purl.org/ontology/is/infoservice.html" rel="rdfs:seeAlso" href="http://smiy.wordpress.com/">SMI</a>)</dd>
+			<dd><a rel="rdfs:seeAlso" href="http://smiy.wordpress.com/author/zazi0815/">Bob Ferris</a> (<a href="http://smiy.wordpress.com/">SMI</a>)</dd>
 		</dl>
 
 		<p class="copyright"><span about="http://purl.org/ontology/is/core#" property="dc:rights">Copyright &#169; 2010 Bob Ferris</span></p>
 	</td>
     <td align="right">
-		<table class="infobox">
+		<table class="infobox" about="http://purl.org/ontology/is/infoservice.html">
 			<tr>
 				<td rowspan="2">
 					<img src="http://wfnm.sourceforge.net/images/sourceforge_logo.jpg" width="150" alt="Sourceforge"/>
@@ -64,7 +64,7 @@ version="XHTML+RDFa 1.0">
 			</tr>
 			<tr>
 				<td align="center">
-					<a href="http://sourceforge.net/projects/infoserviceonto/">Source code, examples, graphics, ...</a>
+					<a rel="rdfs:seeAlso" href="http://sourceforge.net/projects/infoserviceonto/">Source code, examples, graphics, ...</a>
 				</td>
 			</tr>
 			<tr>
@@ -91,6 +91,32 @@ version="XHTML+RDFa 1.0">
 			<tr>
 				<td align="center">
 					<a href="http://infoserviceonto.wordpress.com/">Announcements, descriptions, use cases, ...</a>
+				</td>
+			</tr>
+			<tr>
+				<td rowspan="2" width="150" height="50">
+					&nbsp;
+				</td>
+				<td align="center">
+					<b>SMI Webspace Index</b>
+				</td>
+			</tr>
+			<tr>
+				<td align="center">
+					<a rel="rdfs:seeAlso" href="http://purl.org/smiy/">Ontologies, vocabularies, tools, applications, ...</a>
+				</td>
+			</tr>
+			<tr>
+				<td rowspan="2" width="150" height="50">
+					&nbsp;
+				</td>
+				<td align="center">
+					<b>Info Service Ontology Webspace Index</b>
+				</td>
+			</tr>
+			<tr>
+				<td align="center">
+					<a rel="rdfs:seeAlso" href="http://purl.org/infoservice/">Ontologies, vocabularies, tools, applications, ...</a>
 				</td>
 			</tr>
 		</table>
@@ -129,15 +155,13 @@ the Semantic Web. This document contains a RDFa description of the <em>Informati
   <div class="status">
     <h2>Status of This Document</h2>
 
-    <p>
-The template of this specification is derived from the  <a about="http://purl.org/ontology/is/infoservice.html" rel="rdfs:seeAlso" href="http://xmlns.com/foaf/spec/">FOAF Vocabulary
-Specification</a>, which was created by <a about="http://purl.org/ontology/is/infoservice.html" rel="rdfs:seeAlso" href="http://danbri.org/">Dan Brickley</a> and 
-<a about="http://purl.org/ontology/is/infoservice.html" rel="rdfs:seeAlso" href="http://nicecupoftea.org/">Libby Miller</a>, and the <a 
-about="http://purl.org/ontology/is/infoservice.html" rel="rdfs:seeAlso" href="http://musicontology.com/">Music Ontology Specification</a>, which was created by Yves Raimond. It was 
-modified and extended by Bob Ferris. Furthermore, a modified and extended version of <a about="http://purl.org/ontology/is/infoservice.html" rel="rdfs:seeAlso" 
-href="http://svn.foaf-project.org/foaftown/specgen/">Danbri's SpecGen version</a> was used to generate most of the RDFa statements of the <em>Info Service Ontology</em> for this 
-specification (see <a about="http://purl.org/ontology/is/infoservice.html" rel="rdfs:seeAlso" href="http://smiy.svn.sourceforge.net/viewvc/smiy/specgen/trunk/">here</a> for SpecGen 
-version 6 by Bob Ferris).
+    <p about="http://purl.org/ontology/is/infoservice.html">
+The template of this specification is derived from the  <a rel="rdfs:seeAlso" href="http://xmlns.com/foaf/spec/">FOAF Vocabulary Specification</a>, which was 
+created by <a rel="rdfs:seeAlso" href="http://danbri.org/">Dan Brickley</a> and <a rel="rdfs:seeAlso" href="http://nicecupoftea.org/">Libby Miller</a>, and the 
+<a rel="rdfs:seeAlso" href="http://musicontology.com/">Music Ontology Specification</a>, which was created by Yves Raimond. It was modified and extended by Bob 
+Ferris. Furthermore, a modified and extended version of <a rel="rdfs:seeAlso" href="http://svn.foaf-project.org/foaftown/specgen/">Danbri's SpecGen version</a> 
+was used to generate most of the RDFa statements of the <em>Info Service Ontology</em> for this specification (see <a rel="rdfs:seeAlso" 
+href="http://smiy.svn.sourceforge.net/viewvc/smiy/specgen/trunk/">here</a> for SpecGen version 6 by Bob Ferris).
 </p>
 
 
@@ -146,9 +170,9 @@ version 6 by Bob Ferris).
     incorporate <em>multilingual translations</em> of term definitions. The RDF/XML version of the specification is also available 
     directly from the namespace URI. RDF/N3 representations could be access via the links above.
 </p>
-    <p>The authors welcome comments on this document, preferably via the <a about="http://purl.org/ontology/is/infoservice.html" rel="rdfs:seeAlso" 
+    <p about="http://purl.org/ontology/is/infoservice.html">The authors welcome comments on this document, preferably via the <a rel="rdfs:seeAlso" 
     href="http://groups.google.com/group/info-service-ontology-specification-group/">Info Service Ontology Specification Group mailing list</a> or the 
-    <a about="http://purl.org/ontology/is/infoservice.html" rel="rdfs:seeAlso" href="http://infoserviceonto.wordpress.com/">Info Service Ontology blog</a>.
+    <a rel="rdfs:seeAlso" href="http://infoserviceonto.wordpress.com/">Info Service Ontology blog</a>.
    </p>
 
   <h2 id="sec-toc">Table of Contents</h2>
@@ -217,8 +241,8 @@ isi:musicbrainz a is:InfoService .
 <img src="http://infoserviceonto.sourceforge.net/is/gfx/is_-_musicbrainz_example.gif" title="The Info Service Ontology - MusicBrainz example" 
 alt="The Info Service Ontology - MusicBrainz example" /></div>
   
-  <p>RDF/Turtle representation of <em>MusicBrainz</em> modelled as <em>Information Service</em> (see also <a about="http://purl.org/ontology/is/infoservice.html" 
-  rel="rdfs:seeAlso" href="http://infoserviceonto.sourceforge.net/is/examples/RDF/infoserviceindividuals.rdf">RDF</a> and <a about="http://purl.org/ontology/is/infoservice.html" 
+  <p about="http://purl.org/ontology/is/infoservice.html" >RDF/Turtle representation of <em>MusicBrainz</em> modelled as <em>Information Service</em> (see also <a
+  rel="rdfs:seeAlso" href="http://infoserviceonto.sourceforge.net/is/examples/RDF/infoserviceindividuals.rdf">RDF</a> and <a 
   rel="rdfs:seeAlso" href="http://infoserviceonto.sourceforge.net/is/examples/N3/infoserviceindividuals.n3">N3</a> for downloadable representations of this example):</p>
 
   <div class="example">
@@ -272,20 +296,20 @@ is also the property <a href="http://purl.org/ontology/is/infoservice.html#main_
 <h3>Info Service Ontology Namespaces, Domains and Prefixes</h3>
 
 <p>For representing the different issues of the <em>Info Service Ontology</em>, it was necessary to assign several namespaces/domains, which are the following ones:</p>
-<ul>
+<ul about="http://purl.org/ontology/is/core#">
 	<li><a href="http://purl.org/ontology/is/core#">http://purl.org/ontology/is/core#</a><br />&nbsp;&nbsp;&nbsp;includes the core ontology specification<br />
 	&nbsp;&nbsp;&nbsp;preferred prefix: <strong>is</strong></li>
-	<li><a about="http://purl.org/ontology/is/core#" rel="rdfs:seeAlso" href="http://purl.org/ontology/is/types/">http://purl.org/ontology/is/types/</a><br />
+	<li><a rel="rdfs:seeAlso" href="http://purl.org/ontology/is/types/">http://purl.org/ontology/is/types/</a><br />
 	&nbsp;&nbsp;&nbsp;the domain, which should be used for defining <a href="http://purl.org/ontology/is/infoservice.html#InfoServiceType"><em>is:InfoServiceType</em></a>
 	 individuals<br />&nbsp;&nbsp;&nbsp;preferred prefix: <strong>ist</strong></li>
-	<li><a about="http://purl.org/ontology/is/core#" rel="rdfs:seeAlso" href="http://purl.org/ontology/is/ctypes/">http://purl.org/ontology/is/ctypes/</a><br />
+	<li><a rel="rdfs:seeAlso" href="http://purl.org/ontology/is/ctypes/">http://purl.org/ontology/is/ctypes/</a><br />
 	&nbsp;&nbsp;&nbsp;the domain, which should be used for defining <a href="http://purl.org/ontology/is/infoservice.html#InfoServiceContributorType"><em>is:InfoServiceContributorType</em></a> 
 	individuals<br />
 	&nbsp;&nbsp;&nbsp;preferred prefix: <strong>isct</strong></li>
-	<li><a about="http://purl.org/ontology/is/core#" rel="rdfs:seeAlso" href="http://purl.org/ontology/is/quality/">http://purl.org/ontology/is/quality/</a><br />
+	<li><a rel="rdfs:seeAlso" href="http://purl.org/ontology/is/quality/">http://purl.org/ontology/is/quality/</a><br />
 	&nbsp;&nbsp;&nbsp;the domain, which should be used for defining information service quality ontologies<br />
 	&nbsp;&nbsp;&nbsp;preferred prefix: <strong>isq</strong></li>
-	<li><a about="http://purl.org/ontology/is/core#" rel="rdfs:seeAlso" href="http://purl.org/ontology/is/inst/">http://purl.org/ontology/is/inst/</a><br />
+	<li><a rel="rdfs:seeAlso" href="http://purl.org/ontology/is/inst/">http://purl.org/ontology/is/inst/</a><br />
 	&nbsp;&nbsp;&nbsp;the domain, which should be used for defining <a href="http://purl.org/ontology/is/infoservice.html#InfoService"><em>is:InfoService</em></a>
 	 individuals<br />&nbsp;&nbsp;&nbsp;preferred prefix: <strong>isi</strong></li>
 </ul>
