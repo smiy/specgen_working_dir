@@ -7,7 +7,7 @@ specgen5 version (http://svn.foaf-project.org/foaftown/specgen/).
 It depends utterly upon rdflib. See http://rdflib.net/
 		+ http://code.google.com/p/rdfextras/
 		+ http://pyparsing.wikispaces.com/ (easy_install pyparsing)
-		(at I had to install these packages additionally ;) )
+		(at least I had to install these packages additionally ;) )
 
 If you're lucky, typing this is enough: 
 					easy_install rdflib
