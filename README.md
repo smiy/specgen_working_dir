@@ -5,3 +5,8 @@ This is the [SpecGen](https://github.com/zazi/specgen) working directory for all
 
 The plain templates and ontology/vocabulary specifications can be found in the subfolders of the [onto](https://github.com/smiy/specgen_working_dir/tree/master/onto) folder.
 The enriched documents will usually be stored in the subfolder of the [spec](https://github.com/smiy/specgen_working_dir/tree/master/spec) folder.
+
+PS
+==
+
+The [old project repository location at SourceForge](http://smiy.svn.sourceforge.net/viewvc/smiy/specgen_working_dir/) is now deprecated. All new developments will be pushed to this repository location here at GitHub.
