@@ -1,5 +1,5 @@
 About
-#####
+=====
 
 This is the [SpecGen](https://github.com/zazi/specgen) working directory for all [SMI](http://smiy.org/) ontologies and vocabularies, i.e., all ontology and vocabulary specification documentations are generated with the help of this [SpecGen tool](https://github.com/zazi/specgen).
 
